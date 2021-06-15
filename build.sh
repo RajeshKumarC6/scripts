@@ -9,3 +9,4 @@ if [ ".$@" == "." ]; then
     ./mvnw clean install -P !build,base,starters,!apps -DskipTests
 fi
 ./mvnw clean install "$@" -DskipTests
+
